@@ -1,0 +1,9 @@
+version = 0.1
+[default.deploy.parameters]
+stack_name = "trivia-app-1"
+s3_bucket = "radyafariez321-trivia-app-bucket"
+#resolve_s3 = true
+s3_prefix = "trivia-app-1"
+region = "ap-southeast-1"
+capabilities = "CAPABILITY_IAM"
+image_repositories = []
